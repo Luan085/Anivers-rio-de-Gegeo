@@ -155,25 +155,6 @@ body {
     grid-column: span 2; 
 }
 
-/*.photo-grid{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap:20px;
-    margin-top: 40px;
-}
-.photo-grid img{
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.photo-grid img:hover{
-    transform: scale(1.05);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
-}*/
-
 .photo-book {
     position: relative; 
     width: 100%;
@@ -265,7 +246,7 @@ body {
 
 .story-card h3 {
     margin-top: 0;
-    color: var(--cor-principal);
+    color: #6a0572; /* Alterado de var(--cor-principal) para a cor roxa */
     font-family: var(--fonte-titulo);
 }
 
